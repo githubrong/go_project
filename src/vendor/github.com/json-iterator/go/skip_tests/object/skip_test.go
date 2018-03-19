@@ -1,0 +1,1 @@
+link ../number/skip_test.go
