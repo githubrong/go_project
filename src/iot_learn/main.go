@@ -9,7 +9,6 @@ go get github.com/go-sql-driver/mysql
  */
 
 func Main() {
-
 	router := gin.Default()
 	router.GET("/learn/first",First)
 	router.POST("/learn/two",Two)
