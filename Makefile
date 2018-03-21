@@ -10,5 +10,6 @@ codecheck:
 
 iot_learn:codecheck   
 	go build -o $(@F)  -ldflags  '-extldflags "-static" -X main.module_name=$(@F)' router
+	mv $(@F) bin/$(@F)
 clean:
 	rm -rf release
